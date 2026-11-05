@@ -3,4 +3,13 @@
  * update/draw loop, and wires up mouse and keyboard controls.
  */
 
+(async function main() {
 
+    const canvas = document.getElementById("sim");
+    const ctx = canvas.getContext("2d");
+    
+    function draw() {
+        ctx.fillStyle = CONFIG.colors.ground;
+    }
+
+})();
